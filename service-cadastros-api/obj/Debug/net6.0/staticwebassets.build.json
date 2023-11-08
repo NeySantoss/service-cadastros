@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "nDjEWGgcEQA5Nz+9XhH6y2C2gTwKsAGaBEhQlFFSVGU=",
+  "Source": "service-cadastros.api",
+  "BasePath": "_content/service-cadastros.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

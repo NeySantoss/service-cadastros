@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>service-cadastros.api</name>
+    </assembly>
+    <members>
+        <member name="M:service_cadastros_api.Controllers.LoginController.InserirLogin(service_cadastros_application.ViewModels.RequestLoginViewModel)">
+            <summary>
+            Inserir um usuario
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.LoginController.AtualizarLogin(service_cadastros_application.ViewModels.RequestLoginViewModel)">
+            <summary>
+            Atualizar Usuário
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.LoginController.DeletarLogin(System.Int32)">
+            <summary>
+            Deletar Usuário
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.LoginController.ObterLoginPorId(System.Int32)">
+            <summary>
+            Obter Usuário por Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.LoginController.ObterLoginPorId(service_cadastros_application.ViewModels.RequestFiltrosConsultaViewModel)">
+            <summary>
+            Obter Usuário por Id
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.ProdutoController.InseriProdutoAsync(service_cadastros_application.ViewModels.ResquestProdutoViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.ProdutoController.AtualizarProdutoAsync(service_cadastros_application.ViewModels.ResquestProdutoViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.ProdutoController.DeletarProdutoAsync(System.Int32,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="usuario"></param>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.ProdutoController.ObterProdutoAsync(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:service_cadastros_api.Controllers.ProdutoController.ObterListaProdutoAsync(service_cadastros_application.ViewModels.RequestProdutoFiltrosViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>service_cadastros_persistence</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Queries\LoginAtualizar.sql" />
+    <None Remove="Queries\LoginConsulta.sql" />
+    <None Remove="Queries\LoginDeletar.sql" />
+    <None Remove="Queries\LoginInserir.sql" />
+    <None Remove="Queries\ProdutoConsulta.sql" />
+    <None Remove="Queries\ProdutoConsultaPaginado.sql" />
+    <None Remove="Queries\ProdutoDeletar.sql" />
+    <None Remove="Queries\ProdutoInserirAlterar.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Queries\ProdutoConsultaPaginado.sql" />
+    <EmbeddedResource Include="Queries\ProdutoDeletar.sql" />
+    <EmbeddedResource Include="Queries\ProdutoConsulta.sql" />
+    <EmbeddedResource Include="Queries\ProdutoInserirAlterar.sql" />
+    <EmbeddedResource Include="Queries\LoginAtualizar.sql" />
+    <EmbeddedResource Include="Queries\LoginDeletar.sql" />
+    <EmbeddedResource Include="Queries\LoginInserir.sql" />
+    <EmbeddedResource Include="Queries\LoginConsulta.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Bogus" Version="34.0.2" />
+    <PackageReference Include="Dapper.SqlBuilder" Version="2.0.78" />
+    <PackageReference Include="DapperExtensions" Version="1.7.0" />
+    <PackageReference Include="FirebirdSql.Data.FirebirdClient" Version="9.1.1" />
+    <PackageReference Include="NHibernate" Version="5.4.6" />
+    <PackageReference Include="NSubstitute" Version="5.1.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>
